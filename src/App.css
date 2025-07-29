@@ -1,0 +1,15 @@
+.link2{
+    background-color: aqua;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px; 
+    border-style:dashed;
+    border-color:brown;
+    transition: all 0.5s ease;
+}
+
+.link2:hover{
+    font-size:40px;
+    background-color:blue;
+    color:white;
+}
