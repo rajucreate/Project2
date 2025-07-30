@@ -20,6 +20,9 @@ function App() {
       <br></br>
       <br></br>
       <Link to="/page3">Go to Page3</Link>
+      <br></br>
+      <br></br>
+      <Link to="/page4">Go to Page4</Link>
     </>
   )
 }

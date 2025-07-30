@@ -1,0 +1,73 @@
+header{
+    height:100%;
+    background:linear-gradient(90deg,black,yellow  );
+    color:white;
+    line-height:50px;
+}
+
+section{
+    height: calc(100% - 70px);
+    background: linear-gradient(to bottom, lightblue, lightgreen);
+}
+
+footer{
+    height:30px;
+    line-height:30px;
+    background: linear-gradient(to right,blue,purple);
+    text-align: center;
+    color:white;
+    font-family:"Open Sans";
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav.logo{
+    font-size:10pt;
+    font-weight:bold;
+    margin-left: 0px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin:0 10px;
+}
+
+.menu{
+    margin-right:15px;
+    font-size:20pt;
+    display: none;
+}
+
+
+@media(max-width:768px){
+    .menu{
+        display:block;
+        cursor:pointer;
+    }
+
+    nav ul{
+        display:none;
+        position:sticky;
+        top:50px;
+        background:white;
+        width:50%;
+    }
+
+    nav ul.active{
+        display: block;
+    }
+
+    nav ul li{
+        background: linear-gradient(to right, lightblue, lightgreen);
+        margin:2px 0 0 0 ;
+    }
+}
